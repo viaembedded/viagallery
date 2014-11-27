@@ -37,3 +37,10 @@ h6 {
 .nav-menu .current_page_item > a {
     color: #FFFFFF;
 }
+
+.ngg-albumtitle a,
+a.ngg-album-desc,
+a.ngg-album-desc:hover,
+a.ngg-album-desc:visited {
+    color: #0079C2;
+}
