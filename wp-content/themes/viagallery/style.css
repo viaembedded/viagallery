@@ -44,7 +44,12 @@ h6 {
 
 .ngg-albumtitle a,
 a.ngg-album-desc,
-a.ngg-album-desc:hover,
-a.ngg-album-desc:visited {
+a.ngg-album-desc:hover
+{
     color: #0079C2;
+}
+
+.ngg-albumtitle a:visited,
+a.ngg-album-desc:visited {
+    color: darkblue;
 }
