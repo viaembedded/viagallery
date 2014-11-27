@@ -12,7 +12,7 @@
 			<?php get_sidebar( 'main' ); ?>
 
 			<div class="site-info">
-			        Copyright ©2014  VIA Technologies, Inc., All Rights Reserved.
+			        Copyright ©2014 <a href="http://www.via.com.tw">VIA Technologies, Inc.</a>, All Rights Reserved.
 			</div><!-- .site-info -->
 		</footer><!-- #colophon -->
 	</div><!-- #page -->
