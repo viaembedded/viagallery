@@ -1,0 +1,39 @@
+/*
+ Theme Name:   VIA Gallery
+ Template:     twentythirteen
+*/
+
+html,
+button,
+input,
+select,
+textarea {
+	font-family: "Trebuchet MS", Tahoma, Verdana, Arial, Helvetica, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: "Trebuchet MS", Tahoma, Verdana, Arial, Helvetica, sans-serif;
+}
+
+.entry-header,
+.entry-content,
+.entry-summary,
+.entry-meta {
+	margin: 0 auto;
+	max-width: 804px;
+	width: 100%;
+}
+
+.navbar, .site-footer .sidebar-container {
+    background-color: #0079C2;
+}
+
+.nav-menu li a,
+.nav-menu .current_page_item > a {
+    color: #FFFFFF;
+}
