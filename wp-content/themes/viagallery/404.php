@@ -15,7 +15,7 @@ get_header(); ?>
 			<div class="page-wrapper">
 				<div class="page-content">
 					<h2><?php _e( 'It looks like nothing was found at this location.', 'viagallery' ); ?></h2>
-					<p><?php _e( 'We have recently re-engineered the VIA Gallery website for long-term improvement, and the galleries might have moved. Maybe try a search?', 'viagallery' ); ?></p>
+					<p><?php _e( 'We have recently re-engineered the VIA Gallery website to improve it for the long-term, and the galleries might have moved. Maybe you can try a search?', 'viagallery' ); ?></p>
 
 					<?php get_search_form(); ?>
 				</div><!-- .page-content -->
