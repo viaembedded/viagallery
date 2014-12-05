@@ -23,11 +23,7 @@ if (!empty($gallery)):
 
 <div class="ngg-galleryoverview ngg-download" id="<?php echo $gallery->anchor ?>">
 
-<h3><?php echo $gallery->title; ?></h3>
-
-<?php if (!empty($gallery->description)): ?>
-<p><?php echo $gallery->description; ?></p>
-<?php endif; ?>
+<h3 class="ngg-gallerytitle"><?php echo $gallery->title; ?></h3>
 
 <?php if (!empty($gallery->show_slideshow)) { ?>
 	<!-- Slideshow link -->
