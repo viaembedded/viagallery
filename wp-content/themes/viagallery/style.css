@@ -47,6 +47,44 @@ h6 {
     color: #FFFFFF;
 }
 
+a {
+    color: #0079C2;
+    text-decoration: none;
+}
+
+a:visited {
+    color: darkblue;
+}
+
+a:focus {
+    outline: thin dotted;
+}
+
+a:active,
+a:hover {
+    outline: 0;
+}
+
+a:hover {
+    color: #0079C2;
+    text-decoration: underline;
+}
+
+.entry-content a,
+.comment-content a {
+	color: #0079C2;
+}
+
+.entry-content a:hover,
+.comment-content a:hover {
+	color: #0079C2;
+}
+
+.entry-content a:visited,
+.comment-content a:visited {
+	color: darkblue;
+}
+
 .ngg-albumtitle a,
 a.ngg-album-desc,
 a.ngg-album-desc:hover
