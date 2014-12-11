@@ -71,16 +71,19 @@ a:hover {
 }
 
 .entry-content a,
+.entry-title a,
 .comment-content a {
 	color: #0079C2;
 }
 
 .entry-content a:hover,
+.entry-title a:hover,
 .comment-content a:hover {
 	color: #0079C2;
 }
 
 .entry-content a:visited,
+.entry-title a:visited,
 .comment-content a:visited {
 	color: darkblue;
 }
