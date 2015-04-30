@@ -99,3 +99,41 @@ a.ngg-album-desc:hover
 a.ngg-album-desc:visited {
     color: darkblue;
 }
+
+
+
+/*-------------------------------------------------------
+ Adding fix for old IE, where images are scaled wrong
+ Just expanding on the TwentyThirteen theme's settings
+ ------------------------------------------------------*/
+/*
+ * Responsive images
+ *
+ * Fluid images for posts, comments, and widgets
+ */
+.entry-content img,
+.entry-summary img,
+.comment-content img,
+.widget img,
+.wp-caption {
+    width: auto;
+}
+
+img.size-full,
+img.size-large,
+img.wp-post-image {
+    width: auto;
+}
+
+/* Make sure videos and embeds fit their containers. */
+embed,
+iframe,
+object,
+video {
+    width: auto;
+}
+
+/* Override the Twitter embed fixed width. */
+.entry-content .twitter-tweet-rendered {
+    width: auto !important;
+}
